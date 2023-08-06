@@ -1,5 +1,5 @@
 // import declarations: import package
-import * as THREE             from 'three';
+import * as THREE             from './three.module.js';
 import { TrackballControls }  from 'three/addons/controls/TrackballControls.js';
 import { TessellateModifier } from 'three/addons/modifiers/TessellateModifier.js';
 import { FontLoader }         from 'three/addons/loaders/FontLoader.js';
