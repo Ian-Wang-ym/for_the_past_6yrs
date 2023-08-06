@@ -1,0 +1,57 @@
+- 安裝VS code
+- 安裝git for windows
+- 在program中找到
+	- C:\Program Files\Git\bin
+	- C:\Program Files\Git\cmd
+	- 將上述路徑加入環境變數
+- 在cmd中執行git clone --depth=1 https://github.com/mrdoob/three.js.git
+	- 安裝three.js
+- 依照此影片set up: Three.js Visual Studio Code Setup Tutorial
+	- 安裝VS code套件Live Server
+- VS code server安裝
+	- 下載node js，才能使用npm這個指令
+- project folder
+	- 因為我們要將three.js既有的example拿來修改，因此複製檔案到src中
+		- 原檔案路徑於此"C:\Users\ianwa\Desktop\three.js\examples\webgl_modifier_tessellation.html"
+	- 但是不能只複製html，因為這個html也呼叫了很多套件，在新的project folder中，這些套件的路徑也要跟舊的相同
+	- 可以直接將build, fonts, jsm從本來的three.js中複製過來，省得自己下載+創建資料夾
+	- 若不知道路徑怎麼放，可以直接運行python -m http.server
+	- 然後輸入http://localhost:8000/src/index.html
+	- 這時cmd上會跳出很多error message，說明哪裡找不到被呼叫的檔案，照著找不到的路徑放就可以了
+- 從VS code的terminal進入project的資料夾
+	- 執行npm init -y
+		- 此指令會在project資料夾載入package.json
+		- package. json file is core to the Node. js ecosystem
+	- 執行npm install parcel --save-dev
+		- 安裝parcel
+		- 此舉會安裝一個名為node_modules的資料夾
+	- 執行npm install parcel -g
+		- Parcel is a web application bundler
+		- Bundling is the process of combining multiple small source files into a single file.
+	- 執行npm install
+		- 安裝package-lock.json
+	- 安裝所需套件，直接在cmd下進入project file，執行python -m http.server
+		- 此舉會請python創造一個可以執行網頁的http server
+	- 在browser下輸入網址http://localhost:8000/src/index.html
+		- 8000是default的網址
+	- 此時會看到很多
+
+	
+	
+- source code源自
+	- https://github.com/mrdoob/three.js/blob/dev/examples/webgl_modifier_tessellation.html
+	- 		
+
+- 在VS code的terminal中執行：npx parcel ./src/index.html
+	- 此舉會在project底下建立一個.parcel-cache，並允許你直接從terminal給出的網址渲染你編輯的html
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
