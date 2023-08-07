@@ -46,7 +46,13 @@
 	- 此舉會在project底下建立一個.parcel-cache，並允許你直接從terminal給出的網址渲染你編輯的html
 	
 	
-	
+- 更改
+- 到左側source control
+- 到changes右側的all changes
+- message打update
+- 按下commit
+- 使用control + ~快捷，到console
+- 輸入git push，就會覆寫到github的repo
 	
 	
 	

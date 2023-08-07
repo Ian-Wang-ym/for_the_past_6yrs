@@ -100,7 +100,7 @@ figure.pic15 { transform: rotate(  3deg); z-index: 1; grid-column: 13/21; grid-r
 figure.pic16 { transform: rotate(  3deg); z-index: 1; grid-column: 19/21; grid-row: 12/17;} figure.pic16 img {height: 120px;}
 figure.pic17 { transform: rotate(-10deg); z-index: 1; grid-column: 13/21; grid-row: 11/17;} figure.pic17 img {height: 100px;}
 figure.pic18 { transform: rotate(  0deg); z-index: 1; grid-column: 10/21; grid-row: 2/17;}  figure.pic18 img {height:  90px;}
-figure.pic19 { transform: rotate(  3deg); z-index: 9; grid-column: 19/21; grid-row: 7/17;}  figure.pic19 img {height:  60px;}
+figure.pic19 { transform: rotate(  3deg); z-index: 9; grid-column: 19/21; grid-row: 7/17;}  figure.pic19 img {height: 120px;}
 
 
 /* height: 100% takes over 100% of the whole screen, so assign with pixel */
