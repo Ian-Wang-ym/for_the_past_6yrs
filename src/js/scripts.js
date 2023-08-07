@@ -49,7 +49,7 @@ function init(font) {
 
 
     // creat a TextGeometry object
-    let geometry = new TextGeometry("Yi-Hsin, I love you.\n  please don't go!", { // THREE.TextGeometry is a specific type of geometry that creates 3D text
+    let geometry = new TextGeometry("Yi-Hsin, I love you.\n  Please don't go!", { // THREE.TextGeometry is a specific type of geometry that creates 3D text
 
         font: font,
 

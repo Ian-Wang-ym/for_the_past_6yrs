@@ -24,7 +24,7 @@ html, body {
 	z-index: 10;                   /* make it on top of any figure */
   font-weight: bold;             /* or you can use a value like 700 */
   font-size: 130%;
-  color: #f6ce61;
+  color: #f7ca4c;
 }
 
 /* -------------------- display three.js text -------------------- */
@@ -84,11 +84,11 @@ div#container {
 
 figure.pic1  { transform: rotate( -6deg); z-index: 1; grid-column: 1/21;  grid-row: 1/17;}  figure.pic1 img  {height: 110px;}
 figure.pic2  { transform: rotate(  6deg); z-index: 9; grid-column: 5/21;  grid-row: 1/17;}  figure.pic2 img  {height:  80px;}
-figure.pic3  { transform: rotate( 12deg); z-index: 1; grid-column: 14/21; grid-row: 12/17;} figure.pic3 img  {height: 140px;}
+figure.pic3  { transform: rotate( 12deg); z-index: 1; grid-column: 14/21; grid-row: 11/17;} figure.pic3 img  {height: 140px;}
 figure.pic4  { transform: rotate(  8deg); z-index: 5; grid-column: 19/21; grid-row: 1/17;}  figure.pic4 img  {height: 120px;}
 figure.pic5  { transform: rotate( -3deg); z-index: 8; grid-column: 3/21;  grid-row: 6/17;}  figure.pic5 img  {height: 120px;}
 figure.pic6  { transform: rotate(-10deg); z-index: 1; grid-column: 16/21; grid-row: 12/17;} figure.pic6 img  {height: 110px;}
-figure.pic7  { transform: rotate(  8deg); z-index: 4; grid-column: 1/21;  grid-row: 5/17;}  figure.pic7 img  {height: 140px;}
+figure.pic7  { transform: rotate(  0deg); z-index: 4; grid-column: 1/21;  grid-row: 5/17;}  figure.pic7 img  {height: 140px;}
 figure.pic8  { transform: rotate(  5deg); z-index: 4; grid-column: 4/21;  grid-row: 10/17;} figure.pic8 img  {height: 130px;}
 figure.pic9  { transform: rotate(  5deg); z-index: 5; grid-column: 15/21; grid-row: 6/17;}  figure.pic9 img  {height: 125px;}
 figure.pic10 { transform: rotate( -3deg); z-index: 6; grid-column: 17/21; grid-row: 5/17;}  figure.pic10 img {height: 140px;}
